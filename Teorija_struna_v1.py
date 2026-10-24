@@ -4,9 +4,9 @@ import random
 
 
 # Odkomentariši fajl koji testiraš:
-putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv'
-# putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv' 
-# putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv'
+putanja_fajla = '/data/loto7_4708_k85.csv'
+# putanja_fajla = '/data/loto7_4708_k85_loto_2976.csv' 
+# putanja_fajla = '/data/loto7_4708_k85_loto_plus_1732.csv'
 
 
 MAX_BROJ = 39
@@ -70,11 +70,11 @@ print()
 print(f"Predloženi struna tiket: {novi_tiket}")
 print()
 """
-Predloženi struna tiket: [1, 6, 13, 17, 26, 32, 38]
+Predloženi struna tiket: [1, x, 13, y, 26, z, 38]
 
-Predloženi struna tiket: [2, 3, 5, 9, 17, 25, 39]
+Predloženi struna tiket: [2, x, 5, y, 17, z, 39]
 
-Predloženi struna tiket: [3, 15, 19, 20, 32, 35, 37]
+Predloženi struna tiket: [3, x, 19, y, 32, z, 37]
 """
 
 
